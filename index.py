@@ -68,9 +68,9 @@ pyautogui.press('tab')
 texto = f'''
 Segue o relatório de compras
 
-Total Gasto: {total_gasto}
-Quantidade de Produtos: {quantidade}
-Preço Médio: {preco_medio}
+Total Gasto: {total_gasto:,.2f}
+Quantidade de Produtos: {quantidade:,}
+Preço Médio: {preco_medio:,.2f}
 
 Qualquer dúvida, é só fala.
 Att., Juan
